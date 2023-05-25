@@ -1,0 +1,32 @@
+
+<html>
+
+<head>
+  
+  <title></title>
+</head>
+
+<body>
+  <script>
+  var arry= ['A','B','C','D'];
+  var arr=[1,2,5,8,0,4,6];
+  var [var1,var2,var3,var4]=arry;
+  document.write(var2);
+  var [var1,var2,...xyz]=arr;
+  document.write(xyz);
+   
+   
+   
+   // in case of object the key (as in array it is index)is property name therefore for restructuring object we must use the same variable name 
+   const a={
+     name1:'paras jain',
+     branchYOO:'CSE',
+     rollNombor:5262
+   };
+   const {name1,branchYOO,rollNombor}=a;
+   document.write(branchYOO);
+  </script>
+
+</body>
+
+</html>
